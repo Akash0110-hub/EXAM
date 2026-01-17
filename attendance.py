@@ -6,4 +6,3 @@ def eligible(classes_held, classes_attended):
         a=int(input())
         print("Eligible" if eligible (h,a)
               else"NOT eligible")
-        print("eligible(100,80))
