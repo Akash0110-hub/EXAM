@@ -1,5 +1,10 @@
-from attendance import eligible
+from attendance import check_attendance
 
-def test_yes(): assert eligible(100,80)
-def test_no(): assert not eligible(100,60)
-def test_exact(): assert eligible(100,75)
+def test_eligible():
+    assert check_attendance(100, 80) == "Eligible"
+
+def test_not_eligible():
+    assert check_attendance(100, 60) == "Not Eligible"
+
+def test_exact_75():
+    assert check_attendance(100, 75) == "Eligible"
