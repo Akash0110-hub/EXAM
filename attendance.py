@@ -5,4 +5,4 @@ def eligible(held,attended):
 
 if __name__ == "__main__":
     # Optional default values for manual run
-    print(eligble(100, 80))
+    print(eligible(100, 80))
