@@ -1,4 +1,4 @@
-from attendance import eligble
+from attendance import eligible
 
 def test_eligible():
     assert eligble(100, 80) == "Eligible"
