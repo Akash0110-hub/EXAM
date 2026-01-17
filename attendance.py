@@ -1,8 +1,7 @@
-def eligible(held,attended):
-    percentage = (attended /held) * 100
-    return "Eligible" if percentage >= 75 else "Not Eligible"
-
-
-if __name__ == "__main__":
-    # Optional default values for manual run
-    print(eligible(100, 80))
+def eligible(classes_held, classes_attended):
+    percentage = (classes_attended / classes_held) * 100
+    if percentage >= 75:
+        if__name__=="_main_";
+        h=int(input())
+        a=int(input())
+        print("eligible(100,80))
